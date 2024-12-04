@@ -56,13 +56,20 @@ Next create your username and password and check on Licensing. Make sure that on
 </p>
 <img width="1274" alt="image" src="https://github.com/user-attachments/assets/4cd53c15-160e-437a-aacc-2c2bb7324ee7">
 </p>
-<img width="1274" alt="image" src="https://github.com/user-attachments/assets/a9761db4-66ac-428d-b473-0383da81c077">
-</p>
 <img width="295" alt="image" src="https://github.com/user-attachments/assets/35879dd8-f00b-4545-952c-2fa4a870e263">
 </p>
 After it complete go to virtual machine and copy the Public IP address and open up remote desktop connection in your computer and put in the ip address in and log in with username and password you just created.
 </p>
-
+After log into VM with remote desktop download this in Virtual Machine (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and extract everything on the desktop.
+</p>
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/1c373e60-3a08-432e-a019-df5a643f8e2f">
+</p>
+Next Install / Enable IIS in windows with CGI by going to control and programs then click on Turn Windows features on or off.
+</p>
+<img width="337" alt="image" src="https://github.com/user-attachments/assets/15456c14-9c29-4c38-9e6b-c1ed86836a32">
+</p>
+Then Internet Information Services > World Wide Web Services > Application Development Feature > Check on CGI and press OK.
+</p>
 <br />
 
 <p>
