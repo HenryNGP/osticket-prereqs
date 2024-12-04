@@ -70,12 +70,20 @@ Next Install / Enable IIS in windows with CGI by going to control and programs t
 </p>
 Then Internet Information Services > World Wide Web Services > Application Development Feature > Check on CGI and press OK.
 </p>
-<br />
+Install PHP Manager for IIS and Rewrite Module from the folder. Create the directory C:\PHP from C: then extract PHP 7.3.8 to PHP you just created. Then install VCredist. 
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/4961ee71-8223-42aa-bb4f-5ab74075cc84">
+</p>
+Install MySQL with these setting Typical Setup > Lanuch Configuration Wizard > Standard COnfiguration.
+new root password: root and confirm: root. Then execute.
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/54552fdc-1c03-41da-a2eb-d29fa4406082">
+</p>
+Open up IIS (Internet Information Services) from window. Click on PHP version and register on PHP folder in C: we installed and select php-cgi.
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/3cc89acd-d0a6-42ac-a021-17c9ffb33dce">
+</p>
+Next unzip osTicket, then copy "upload" folder into “c:\inetpub\wwwroot” and rename it to "osTicket"
+<img width="640" alt="image" src="https://github.com/user-attachments/assets/6db5a8a8-5e9d-4265-b976-cf8dbcb547a7">
+</p>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+
+
