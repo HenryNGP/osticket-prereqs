@@ -39,8 +39,13 @@ Once you log in to Azure, you simply click on virtual machine then hit create an
 </p>
 <br />
 <img width="614" alt="image" src="https://github.com/user-attachments/assets/e29a5d50-78dd-4b5e-bf54-283d136278c1">
+</p>
+Next you need to create new resource group (which is a container that hold resources in Azure or "Folder").
+</p>
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/3eeb22ab-60a7-41c4-9224-3898e4d7efc6">
+</p>
+Create your virtual machine name. Then pick your time zone and region, and make sure image is windows 10 Pro. Size can be whatever you want, but remember it will cost money if you leave it running all day.
 
-Next you need to create new resource group (which is a container that hold resources in Azure or "Folder"). Create your virtual machine name. Then pick your time zone and region, and make sure image is windows 10 Pro. Size can be whatever you want, but remember it will cost money if you leave it running all day.
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
