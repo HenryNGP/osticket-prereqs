@@ -70,11 +70,13 @@ Next Install / Enable IIS in windows with CGI by going to control and programs t
 </p>
 Then Internet Information Services > World Wide Web Services > Application Development Feature > Check on CGI and press OK.
 </p>
-Install PHP Manager for IIS and Rewrite Module from the folder. Create the directory C:\PHP from C: then extract PHP 7.3.8 to PHP you just created. Then install VCredist. </p>
+Install PHP Manager for IIS and Rewrite Module from the folder. Create the directory C:\PHP from C: then extract PHP 7.3.8 to PHP you just created. Then install VCredist. 
+</p>
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/4961ee71-8223-42aa-bb4f-5ab74075cc84">
 </p>
 Install MySQL with these setting Typical Setup > Lanuch Configuration Wizard > Standard COnfiguration.
 new root password: root and confirm: root. Then execute.
+</p>
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/54552fdc-1c03-41da-a2eb-d29fa4406082">
 </p>
 Open up IIS (Internet Information Services) as admin from window. Click on PHP version and register on PHP folder in C: we installed and select php-cgi.
