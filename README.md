@@ -70,19 +70,64 @@ Next Install / Enable IIS in windows with CGI by going to control and programs t
 </p>
 Then Internet Information Services > World Wide Web Services > Application Development Feature > Check on CGI and press OK.
 </p>
-Install PHP Manager for IIS and Rewrite Module from the folder. Create the directory C:\PHP from C: then extract PHP 7.3.8 to PHP you just created. Then install VCredist. 
+Install PHP Manager for IIS and Rewrite Module from the folder. Create the directory C:\PHP from C: then extract PHP 7.3.8 to PHP you just created. Then install VCredist. </p>
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/4961ee71-8223-42aa-bb4f-5ab74075cc84">
 </p>
 Install MySQL with these setting Typical Setup > Lanuch Configuration Wizard > Standard COnfiguration.
 new root password: root and confirm: root. Then execute.
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/54552fdc-1c03-41da-a2eb-d29fa4406082">
 </p>
-Open up IIS (Internet Information Services) from window. Click on PHP version and register on PHP folder in C: we installed and select php-cgi.
+Open up IIS (Internet Information Services) as admin from window. Click on PHP version and register on PHP folder in C: we installed and select php-cgi.
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/3cc89acd-d0a6-42ac-a021-17c9ffb33dce">
 </p>
 Next unzip osTicket, then copy "upload" folder into “c:\inetpub\wwwroot” and rename it to "osTicket"
 <img width="640" alt="image" src="https://github.com/user-attachments/assets/6db5a8a8-5e9d-4265-b976-cf8dbcb547a7">
 </p>
+Reload IIS (Open IIS, Stop and Start the server). </p>
+Got to Sites > osTicket > Browse *.80"</p>
+It will load an osTicket sites.</p>
+<img width="914" alt="image" src="https://github.com/user-attachments/assets/d13fcab0-484e-4675-a379-b125b3019720">
+</p>
+<img width="503" alt="image" src="https://github.com/user-attachments/assets/24fec2a7-927f-40d4-9da1-7654539e4958">
+</p>
+Note that some extensions are not enabled</p>
+Go back to IIS, sites -> Default -> osTicket</p>
+Double-click PHP Manager</p>
+Click “Enable or disable an extension”</p>
+Enable: php_imap.dll</p>
+Enable: php_intl.dll</p>
+Enable: php_opcache.dll</p>
+Refresh the osTicket site in your browser, observe the changes</p>
+<img width="725" alt="image" src="https://github.com/user-attachments/assets/6e32541c-f3b1-4073-8e9b-6c1752af5f02">
+</p>
+Rename: ost-config.php</p>
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</p>
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php </p>
+<img width="680" alt="image" src="https://github.com/user-attachments/assets/69911b12-b2d6-4077-8dee-d7aade7e298e">
+</p>
+Install HeidiSQL from downloaded folder</p>
+Open Heidi SQL</p>
+Create a new session, user:root password:root</p>
+Connect to the session</p>
+Create a database from unnamed called “osTicket” </p>
+<img width="692" alt="image" src="https://github.com/user-attachments/assets/aba1b33b-b7ad-46ab-92f3-6c3af9cd0e7e">
+</p>
+Then go back to osTicket website and click continue </p>
+Continue Setting up osTicket in the browser </p>
+MySQL Database: osTicket</p>
+MySQL Username: root</p>
+MySQL Password: root</p>
+Click “Install Now!”</p>
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/f92af108-df8d-4bb2-b9d5-fe5a732a2fb2">
+</p>
+
+
+
+
+
+
+
+
 
 
 
