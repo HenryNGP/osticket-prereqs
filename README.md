@@ -80,9 +80,11 @@ new root password: root and confirm: root. Then execute.
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/54552fdc-1c03-41da-a2eb-d29fa4406082">
 </p>
 Open up IIS (Internet Information Services) as admin from window. Click on PHP version and register on PHP folder in C: we installed and select php-cgi.
+</p>
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/3cc89acd-d0a6-42ac-a021-17c9ffb33dce">
 </p>
 Next unzip osTicket, then copy "upload" folder into “c:\inetpub\wwwroot” and rename it to "osTicket"
+</p>
 <img width="640" alt="image" src="https://github.com/user-attachments/assets/6db5a8a8-5e9d-4265-b976-cf8dbcb547a7">
 </p>
 Reload IIS (Open IIS, Stop and Start the server). </p>
