@@ -24,9 +24,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Azure Virtual Machine
 - osTicket Files
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 To install osTicket on Virtual Machine you need to create one from Azure
@@ -124,7 +121,7 @@ MySQL Password: root</p>
 Click “Install Now!”</p>
 <img width="695" alt="image" src="https://github.com/user-attachments/assets/f92af108-df8d-4bb2-b9d5-fe5a732a2fb2">
 </p>
-
+Congratulation you Installed osTicket!!!!
 
 
 
